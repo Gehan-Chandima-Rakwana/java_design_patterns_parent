@@ -16,6 +16,7 @@
 	<description>Demo project for Spring Boot</description>
     <modules>
         <module>singleton_pattern</module>
+        <module>factory_pattern</module>
     </modules>
     <properties>
 		<java.version>17</java.version>

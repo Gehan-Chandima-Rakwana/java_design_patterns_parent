@@ -1,9 +1,10 @@
-package com.example.singletonpattern.lazySingleton;
+package com.example.singletonpattern.reflectionDestroySingleton;
 
 public class LazySingleton {
     private static LazySingleton instance = null;
 
     private LazySingleton(){
+
     }
 
     public static LazySingleton getInstance(){
@@ -14,6 +15,6 @@ public class LazySingleton {
     }
 
     public void print(){
-         System.out.println("This is LazySingleton");
+         System.out.println("This is Reflection Destroy LazySingleton");
     }
 }
