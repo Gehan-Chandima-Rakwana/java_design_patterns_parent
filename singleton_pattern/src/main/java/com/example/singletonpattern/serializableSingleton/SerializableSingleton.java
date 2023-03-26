@@ -17,9 +17,9 @@ public class SerializableSingleton implements Serializable {
         return (SerializableSingleton) instance;
     }
 
-//    protected Object readResolve(){
-//        return instance;
-//    }
+    protected Object readResolve(){
+        return instance;
+    }
 
     public void print(){
         System.out.println("This is LazySingleton");

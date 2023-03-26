@@ -1,6 +1,7 @@
 package com.example.singletonpattern.lazySingleton;
 
 public class LazySingleton {
+    //This is static because non-static variables cannot access inside static method(getInstance)
     private static LazySingleton instance = null;
 
     private LazySingleton(){
