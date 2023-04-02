@@ -19,6 +19,7 @@
         <module>factory_pattern</module>
         <module>abstract_factory_pattern</module>
         <module>prototype_pattern</module>
+        <module>builder_pattern</module>
     </modules>
     <properties>
 		<java.version>17</java.version>
