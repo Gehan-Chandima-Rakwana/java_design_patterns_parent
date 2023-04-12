@@ -21,6 +21,7 @@
         <module>prototype_pattern</module>
         <module>builder_pattern</module>
         <module>structural_adapter_pattern</module>
+        <module>structural_bridge_pattern</module>
     </modules>
     <properties>
 		<java.version>17</java.version>
